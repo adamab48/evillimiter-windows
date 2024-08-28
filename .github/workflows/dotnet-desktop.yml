@@ -40,7 +40,7 @@ jobs:
 
     # Restore NuGet packages
     - name: Restore NuGet packages
-      run: nuget restore $env:Solution_Name
+      run: nuget restore evillimiter-windows.sln
 
     # Execute all unit tests in the solution
     - name: Execute unit tests
